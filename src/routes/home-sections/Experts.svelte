@@ -1,7 +1,6 @@
 <section class="experts home-section mx-0 p-5">
      <div class="d-flex flex-column align-items-center justify-content-between">
-          <h3 id="scrollspyHeadingExperts">Experts</h3>
-          <p>We have a team of experts.</p>
+          <h2 id="scrollspyHeadingExperts" class="mb-5">Our Team Of Experts</h2>
 
           <div class="experts d-flex flex-column flex-md-row justify-content-evenly w-100">
                <div class="card d-flex flex-column m-2 p-2" style="width: 18rem;">

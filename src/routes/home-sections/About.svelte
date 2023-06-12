@@ -1,6 +1,6 @@
 <section class="booking home-section mx-0 p-5">
      <div class="d-flex flex-column align-items-center justify-content-between">
-          <h3 id="scrollspyHeadingAbout">About</h3>
+          <h3 id="scrollspyHeadingAbout" class="mb-3">About Us</h3>
           <p class="text-center">
                Welcome to TechFix Solutions, your trusted destination for expert electronics repair and staunch advocates of the right to repair movement. With a passion for empowering individuals and promoting sustainability, we believe in providing affordable and accessible repair services while advocating for your right to repair your own devices.
           </p>

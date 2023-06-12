@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" style="padding: var(--bs-nav-link-padding-y);" href="#scrollspyHeadingHome">TechFix</a>
+    <a class="navbar-brand ms-5" style="padding: var(--bs-nav-link-padding-y);" href="#scrollspyHeadingHome">TechFix</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
     </button>
