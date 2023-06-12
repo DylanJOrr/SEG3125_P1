@@ -12,7 +12,7 @@
 
 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary mx-0 d-flex flex-column" tabindex="0">
-     <section id="scrollspyHeadingNews scrollspyHeadingHome" class="parts home-section bg-dark text-light p-5 pt-lg-5 text-center text-sm-start d-flex flex-column justify-content-center" style="height: 60vh;">
+     <section id="scrollspyHeadingHome" class="parts home-section bg-dark text-light p-5 pt-lg-5 text-center text-sm-start d-flex flex-column justify-content-center" style="height: 60vh;">
           <div class="container">
           <div class="d-sm-flex align-items-center justify-content-between">
           <div>
@@ -21,9 +21,7 @@
                <p class="lead my-4 opacity-75">
                Looking for parts, repair guides or repair servies?
                </p>
-               <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">
-               Learn More
-               </button>
+               <a class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll" href="#scrollspyHeadingAbout">Learn More</a>
           </div>
           </div>
           </div>
