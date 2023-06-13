@@ -1,4 +1,6 @@
 <script>
+     import { base } from '$app/paths';
+
      /**
       * @type {String}
       */
@@ -20,7 +22,7 @@
           <i class="fa-regular fa-circle-check fa-8x p-5 text-success"></i>
      </div>
      <div class="text-center">
-          <h4><a href="./login">Log in</a> if you want to check upcoming appointments!</h4>
+          <h4><a href="{base}/login">Log in</a> if you want to check upcoming appointments!</h4>
      </div>
 </div>
 </section>
@@ -31,22 +33,5 @@
       padding: 20px;
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
       max-width: 650px;
-    }
-
-    .order-form-label {
-      margin: 8px 0 0 0;
-      font-size: 14px;
-      font-weight: bold;
-    }
-
-     .order-form-input,
-     .form-label,
-     .form-check-label {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 14px;
-    }
-
-    .btn-submit:hover {
-      background-color: #0D47A1 !important;
     }
 </style>

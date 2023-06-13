@@ -1,11 +1,11 @@
 <script>
-	 import Footer from "../lib/components/Footer.svelte";
-	 import Navbar from "../lib/components/Navbar.svelte";
-	 import About from "../lib/components/home-sections/About.svelte";
-	 import Appointments from "../lib/components/home-sections/Appointments.svelte";
-	 import Experts from "../lib/components/home-sections/Experts.svelte";
-	 import Parts from "../lib/components/home-sections/Parts.svelte";
-	 import Repairs from "../lib/components/home-sections/Repairs.svelte";
+     import Footer from "$lib/components/Footer.svelte";
+     import Navbar from "$lib/components/Navbar.svelte";
+     import About from "$lib/components/home-sections/About.svelte";
+     import Appointments from "$lib/components/home-sections/Appointments.svelte";
+     import Experts from "$lib/components/home-sections/Experts.svelte";
+     import Parts from "$lib/components/home-sections/Parts.svelte";
+     import Repairs from "$lib/components/home-sections/Repairs.svelte";
 </script>
 
 <Navbar />

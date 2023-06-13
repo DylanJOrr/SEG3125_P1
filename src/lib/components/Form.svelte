@@ -14,7 +14,6 @@
      };
 
      const submitContactForm = () => {
-          console.log(formInfo);
           if (validateForm()) {
                formSubmitted = true;
           } else {

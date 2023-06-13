@@ -1,8 +1,8 @@
 <script>
-     import BarebonesNavbar from "../../lib/components/BarebonesNavbar.svelte";
-     import Footer from "../../lib/components/Footer.svelte";
-     import Form from "../../lib/components/Form.svelte";
-	import FormSubmitted from "../../lib/components/FormSubmitted.svelte";
+     import BarebonesNavbar from "$lib/components/BarebonesNavbar.svelte";
+     import Footer from "$lib/components/Footer.svelte";
+     import Form from "$lib/components/Form.svelte";
+	import FormSubmitted from "$lib/components/FormSubmitted.svelte";
 
      /** @type {boolean} */
      let formSubmitted = false;
