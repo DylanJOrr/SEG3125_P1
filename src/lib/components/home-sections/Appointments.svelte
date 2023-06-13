@@ -1,7 +1,8 @@
 <script>
 	import { base } from "$app/paths";
+     import AppointmentsBGImage from "$lib/images/workbench06.jpg";
 </script>
-<section class="booking home-section mx-0 text-light" style="height: 45vh; background-image: url(../workbench06.jpg); background-size: cover;" id="scrollspyHeadingBook">
+<section class="booking home-section mx-0 text-light" style="height: 45vh; background-image: url({AppointmentsBGImage}); background-size: cover;" id="scrollspyHeadingBook">
      <div class="w-100 h-100 p-5 d-flex flex-coloumn justify-content-center align-items-center" style="background-color: rgba(13,110,253,0.9);">
           <div class="d-flex flex-column align-items-center">
                <h2 class="mb-4">Request A Repair</h2>
