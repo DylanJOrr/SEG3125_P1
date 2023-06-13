@@ -4,6 +4,8 @@
 
 </script>
 
+<meta http-equiv = "refresh" content = "0; url = https://www.dylanorr.com" />
+
 <BarebonesNavbar />
 
 <h1>Guides</h1>
