@@ -1,3 +1,7 @@
+<script>
+	import BarebonesNavbar from "../../lib/components/BarebonesNavbar.svelte";
+     import Footer from "../../lib/components/Footer.svelte";
+</script>
 
 <BarebonesNavbar />
 
@@ -12,15 +16,15 @@
         <form>
           <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
             <p class="lead fw-normal mb-0 me-3">Sign in with</p>
-            <button type="button" class="btn btn-primary btn-floating mx-1" on:click={noSocialLogin}>
+            <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-facebook-f"></i>
             </button>
 
-            <button type="button" class="btn btn-primary btn-floating mx-1" on:click={noSocialLogin}>
+            <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-twitter"></i>
             </button>
 
-            <button type="button" class="btn btn-primary btn-floating mx-1" on:click={noSocialLogin}>
+            <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-linkedin-in"></i>
             </button>
           </div>
@@ -66,34 +70,4 @@
   </div>
 </section>
 
-<div class="toast-container position-fixed bottom-0 end-0 p-3">
-  <div bind:this={toastDiv} class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-header">
-      <img src="" class="rounded me-2" alt="">
-      <strong class="me-auto">"Error"</strong>
-      <small>now</small>
-      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-    </div>
-    <div class="toast-body">
-      <p>Did you really expect me to implement oAuth?</p>
-    </div>
-  </div>
-</div>
-
 <Footer />
-
-<script>
-     import BarebonesNavbar from "../../lib/components/BarebonesNavbar.svelte";
-     import Footer from "../../lib/components/Footer.svelte";
-     import bootstrap from 'bootstrap/dist/js/bootstrap.min.js';
-
-     /**
-	  * @type {HTMLElement | null}
-	  */
-     let toastDiv;
-     
-     const noSocialLogin = () => {
-          const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastDiv);
-          toastBootstrap.show();
-     }
-</script>

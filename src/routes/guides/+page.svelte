@@ -1,6 +1,6 @@
 <script>
-	 import BarebonesNavbar from "../BarebonesNavbar.svelte";
-      import Footer from "../Footer.svelte";
+	 import BarebonesNavbar from "../../lib/components/BarebonesNavbar.svelte";
+      import Footer from "../../lib/components/Footer.svelte";
 
 </script>
 
